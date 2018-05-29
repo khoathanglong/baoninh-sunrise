@@ -6,7 +6,7 @@ export default class ViTri extends Component {
     return(
       <Row id='vi-tri'>
         <Col md={4} className='map-container'>
-          <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=danang&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <iframe title="tour VR"  width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=danang&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </Col>
 
         <Col md={8} id='vi-tri-text'>
